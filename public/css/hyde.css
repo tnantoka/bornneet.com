@@ -44,7 +44,7 @@ body {
   background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h1 a {
   margin: 0 0 10px;
   font-weight: 500;
   line-height: 1.25;
@@ -163,8 +163,9 @@ blockquote p:after {
 }
 
 img {
+  width: 100%;
   display: block;
-  margin: 0 0 15px;
+  margin: 25px 0 15px;
   border-radius: 5px;
 }
 
@@ -188,7 +189,7 @@ a:hover {
 /* Header */
 .masthead {
   color: #fff;
-  background-color: #2a2a2a;
+  background-color: #35aadc;
 }
 .masthead-inner {
   padding: 20px;
@@ -213,7 +214,9 @@ a:hover {
   padding-left: 0;
   list-style: none;
 }
-
+.colophon p {
+  color: #fff;
+}
 
 /* Posts
 -------------------------------------------------- */
@@ -305,6 +308,12 @@ a:hover {
   .posts {
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  img {
+    margin-top: 15px;
+    float: right;
+    width: 240px;
   }
 }
 
